@@ -125,6 +125,7 @@ html,body{
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+
 }
 
 .main::before{
@@ -238,6 +239,7 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
 }
+
 
 h2 {
     margin-bottom: 30px;
@@ -445,4 +447,17 @@ p.footer {
     -webkit-user-select: none;
     -ms-user-select: none;
     color: #333;
+}
+
+.workexp #heaad{
+    font-size: 80px;
+}
+@media (max-width: 767px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 100vw;
+    }
 }
